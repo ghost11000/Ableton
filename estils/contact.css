@@ -1,0 +1,125 @@
+/* 
+font-family: 'Quicksand', sans-serif;
+*/
+#hr-contact{
+    margin: 80px 0;
+}
+.contact{
+    width:82%;
+    margin: auto;
+    height: 70vh;
+}
+.contact h3{
+    font-size: 3.5rem;
+    font-family: 'Quicksand', sans-serif;
+    margin: 70px 0;
+}
+
+.grid-contact{
+    display: grid;
+    grid-template-columns: 300px 300px 1fr;
+    grid-template-rows: 220px 220px ;
+}
+
+/* GRID 1 */
+#social-grid{
+   display: flex;
+}
+#social-grid li {
+    margin-top: 20px;
+    margin-right: 10px;
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+.grid-contact div > ul > li a{
+    color: #000;
+    line-height: 1.8rem;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    transition: .5s;
+}
+.grid-contact div>ul>li a:hover{
+    color: #0000ff;
+}
+.grid-contact div>ul > li p{
+    color: #000;
+    line-height: 1.8rem;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+/* GRID 6 */
+.grid-6 p {
+    line-height: 1.7rem;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+
+/* GRID 3*/
+.grid-3 p {
+    line-height: 1.8rem;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+.grid-3 label input{
+    width: 60%;
+    height: 5vh;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 10px;
+}
+.grid-3 label button{
+    height: 5vh;
+    width: 20%;
+    border: none;
+    background-color: #0000ff;
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+    cursor: pointer;
+}
+.grid-3 p > span{
+    font-size: 1.2rem;
+}
+
+/* FOOTER */
+.footer{
+    padding-top:100px;
+    width: 82%;
+    margin: auto;
+    padding-bottom: 100px ;
+}
+.nav-footer{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-footer ul{
+    display: flex;
+    align-items: center; 
+}
+.nav-footer ul li{
+    margin: 0 20px;
+}
+.nav-footer ul li a {
+    color: #000;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: .8rem;
+    transition: .5s;
+}
+.nav-footer ul li a:hover{
+    color: #0000ff;
+}
+#ul-right-footer li {
+    margin: 0px;
+    color: #000;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: .8rem;
+    transition: .5s;
+}
+/* IMAGEN LOGO */
+footer > nav > ul >  img {
+     width: 40px;
+     margin-left: 10px;
+}

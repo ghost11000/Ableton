@@ -1,0 +1,84 @@
+/*GENERAL */
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-menu ul li img {
+    width: 60px;
+}
+.nav-menu ul{
+    display: flex;
+    align-items: center;
+}
+.nav-menu ul li {
+    margin: 0 15px;
+    
+}
+.nav-menu ul li a {
+    color: #000;
+    font-family: 'Quicksand', sans-serif;
+    font-size:1rem;
+    font-weight: bold;
+    transition: .4s;
+}
+.nav-menu ul li a:hover{
+    color: #0000ff;
+}
+hr{
+    width: 98%;
+}
+
+
+/* HEADER */
+
+
+.header-content{
+    display: flex;
+    flex-direction: column;
+}
+.header-content ul{
+    display: flex;
+    margin-left: 2.5rem;
+}
+.header-content ul li {
+    margin: 15px;
+}
+.header-content ul li a {
+    color: #000;
+    font-family: 'Quicksand', sans-serif;
+    font-size:.9rem;
+    font-weight: bold;
+    transition: .4s;
+}
+.header-content ul li a:hover{
+    color: #ff764d;
+}
+
+.header-content div {
+    width:82%;
+    margin: auto;
+    height: 500px;
+    background-image: url(/Imagenes/header.jpg);
+    background-position: center center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-content div h2{
+    color: #ff764d;
+    font-size: 6.5rem;
+    font-family: 'Quicksand', sans-serif;
+}
+
+

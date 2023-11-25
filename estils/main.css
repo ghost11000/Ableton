@@ -1,0 +1,261 @@
+main{
+    width: 82%;
+    margin: auto;
+}
+/* SECTION - 1*/
+.section-1{
+    height: auto;
+    width: 100%;
+
+}
+
+/* SECTION TEXT */
+.section-text{
+    font-family: 'Quicksand', sans-serif;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section-text span {
+   color:#0000ff;
+}
+.section-text{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+}
+.section-text strong{
+    font-size: 1.4rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.section-text small{
+    font-size: .9rem;
+    line-height: 1.5;
+}
+/* SECTION IMG*/
+
+.section-img{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+.section-img .background-1{
+    width: 450px;
+    height: 500px;
+    background-image: url(/Imagenes/section-img2.jpg);
+    background-position: center center;
+    background-size: cover;
+    
+}
+.section-img .background-2 {
+    width: 450px;
+    height: 300px;
+    background-image: url(/Imagenes/section-img1.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.yellow-backgr{
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    background-color: #fbffa7;
+    right: -11%;
+    z-index: -10;
+}
+
+
+
+
+
+
+
+/* SECTION 2*/
+.text-2{
+    height: 40vh;
+}
+/* NO NECESITAMOS REPETIR EN LA ESTILIZACIÓN DEL DIV TEXTO. PORQUE SE REPITE*/
+.section-2{
+   height: auto;
+}
+.section-video{
+    width: 60%;
+    margin: auto;
+    padding-bottom: 150px;
+}
+.section-video video {
+    width: 100%;
+    height: 60vh;
+}
+.section-video small{
+    font-size: .8rem;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+
+
+/* SECTION 3 */
+.text-3{
+    height: 40vh;
+    margin-bottom: 100px;
+}
+
+/* IMAGEN */
+.section-img-3{
+    height: 120vh;
+    position: relative;
+}
+.background-section-3-1{
+    width: 350px;
+    height: 300px;
+     background-image: url(/Imagenes/imagen-3-1.jpg);
+     background-position: center center;
+     background-size: cover;
+     position: absolute;
+     left: 10%;
+     top: 10%;
+}
+.background-section-3-2{
+    width: 550px;
+    height: 400px;
+    background-image: url(/Imagenes/imagen-3-2.jpg);
+    background-position: center center;
+    background-size: cover;
+    position: absolute;
+    right: 0%;
+    bottom: 20%;
+}
+.background-section-3-3 {
+    width: 350px;
+    height: 300px;
+    background-image: url(/Imagenes/imagen-3-3.jpg);
+    background-position: center center;
+    background-size: cover;
+    position: absolute;
+    left: 10%;
+    bottom: 5%;
+}
+
+#green-white{
+    background-color: #b6ffc0;
+    height: 100%;
+    width: 70%;
+    position: absolute;
+    left: -11%;
+    z-index: -10;
+}
+
+/* SECTION - 4*/
+
+.section-video-4{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.section-video-4 video{
+    width: 100%;
+    height: 500px;
+}
+.section-video-4 small{
+    font-size: .8rem;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+
+/* SECTION 5 */
+
+.section-5{
+    height: auto;
+    width: 100%;
+}
+.section-img-5{
+    height: 100vh;
+    position: relative;
+}
+
+.section-5-1{
+    background-image: url(/Imagenes/section4-2.jpg);
+    background-size: cover;
+    background-position: center center;
+    width: 450px;
+    height:300px;
+    position: absolute;
+    top: 30%;
+    left: 0%;
+
+}
+.section-5-2 {
+    background-image: url(/Imagenes/section4-1.jpg);
+    background-size: cover;
+    background-position: center center;
+    width: 600px;
+    height: 480px;
+    position: absolute;
+    right: -5%;
+    top: 15%;
+}
+
+
+.section-img-5 span{
+    background-color: #d5b3ff;
+    height: 100vh;
+    width: 80%;
+    left: 10%;
+    position: absolute;
+    z-index: -10;
+    
+}
+
+/* SECTION 6*/
+.section-6{
+    width: 100%;
+    position: relative;
+    height:auto;
+}
+.two-opction {
+    height: 60vh;
+}
+.img-left{
+    background-image: url(/Imagenes/vamos\ mrd.jpg);
+    background-size: cover;
+    background-position: center center;
+    width: 50%;
+    position: absolute;
+    left: 0%;
+    height: 60vh;
+}
+
+.text-right{
+    width: 50%;
+    height: 60vh;
+    padding: 6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    position: absolute;
+    right: 0%;
+    background-color: #b1c5ff;
+}
+
+
+/* */
+.text-right strong{
+    font-size: 1.4rem;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    word-spacing: 1px ;
+    line-height: 2rem;
+}
+
+.text-right a{
+    color: #0000ff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+}
